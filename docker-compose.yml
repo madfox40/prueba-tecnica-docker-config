@@ -23,7 +23,7 @@ services:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
   frontend:
-    image: victor22junio/prueba-tecnica-front
+    image: victor22junio/prueba-tecnica-front:latest
     ports:
       - "4200:4200"
 
