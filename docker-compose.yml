@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   backend:
-    build: .
+    image: victor22junio/prueba-tecnica-micronaut
     ports:
       - "8080:8080"
     environment:
